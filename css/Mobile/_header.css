@@ -21,7 +21,7 @@
   }
 
   header .header-link a {
-    padding: 0.6rem 2.1rem;
+    padding: 0.6rem 1.5rem;
     color: white;
   }
 
@@ -30,6 +30,7 @@
     justify-content: space-evenly;
     grid-area: nav;
     margin-left: 0;
+    margin-right: 4rem;
   }
 
   header nav .small-text{
