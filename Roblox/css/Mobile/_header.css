@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+  header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "logo . . nav"
+      "link link link link";
+  }
+
+  header .header-logo {
+    grid-area: logo;
+    padding-top: 0.5rem;
+  }
+
+  header .header-link{
+    grid-area: link;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .header-link a {
+    padding: 0.6rem 2.1rem;
+    color: white;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: nav;
+    margin-left: 0;
+  }
+
+  header nav .small-text{
+    color: var(--text);
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+  }
+
+  header nav p {
+    margin-right: 0.5rem;
+  }
+
+  header .search-container,
+  header .container-robux,
+  header nav h3,
+  header nav i span {
+    display: none;
+  }
+
+  header nav .small-text:hover {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,57 @@
+/* Header */
+
+.btn:hover {
+  background-color: var(--hint);
+}
+
+header .header-logo a {
+  border-bottom: 0 !important;
+}
+
+header .header-link a:hover {
+  border-bottom: 2px solid var(--text);
+}
+
+header .search-container input:focus {
+  border: 1px solid rgb(131, 130, 130);
+}
+
+header nav .small-text:hover {
+  transform: scale(1.4);
+}
+
+header nav h3:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+
+.see-btn:hover {
+  text-decoration: underline;
+}
+
+main .friends-list-player:hover {
+  text-decoration: underline;
+}
+
+main .game-container:hover {
+  background-color: var(--dark-grey);
+}
+
+.friends-list-player:hover #pop-up {
+  visibility: visible;
+}
+
+#pop-up p:hover{
+  background-color:rgb(61, 61, 61);
+}
+
+#pop-up p:hover i{
+  color: var(--text);
+}
+
+
+
+
+
+

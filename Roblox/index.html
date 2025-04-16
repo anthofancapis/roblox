@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cdae3be931.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/variable.css" />
+    <link rel="stylesheet" href="/css/_reset.css" />
+    <link rel="stylesheet" href="/css/_base.css" />
+    <link rel="stylesheet" href="/css/_interactions.css" />
+    <link rel="stylesheet" href="/css/_class.css" />
+    <link rel="stylesheet" href="/css/Mobile/_header.css" />
+    <link rel="stylesheet" href="/css/Mobile/main.css">
+    <title>Accueil - Roblox</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <div class="header-logo">
+        <button><i class="fa-solid fa-bars fa-xl btn"></i></button>
+        <a href="/index.html"
+          ><img
+            src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjY3NiAwTDAgNDQuMTY2IDQzLjU3NyA1NmwxMS42NzYtNDQuMTY2TDExLjY3NiAwem0yMC40MDkgMzUuODI3bC0xMi4xNzctMy4zMDggMy4yNjQtMTIuMzQyIDEyLjE4MiAzLjMwOC0zLjI3IDEyLjM0MnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+            alt="logo-roblox"
+        /></a>
+      </div>
+      <div class="header-link">
+        <a href="#">Charts</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Créer</a>
+        <a href="#">Robux</a>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input placeholder="Rechercher" type="text" />
+        </div>
+      </div>
+
+      <!-- Header Nav -->
+
+      <nav>
+        <img src="/image/profil-player-actif.png" alt="profil-player" />
+        <h3>antho_mrqs67</h3>
+        <p class="small-text">13+</p>
+        <i class="fa-solid fa-bell fa-xl btn"><span>6</span></i>
+        <div class="container-robux btn">
+          <img src="/image/logo-robux.png" alt="logo-robux" />
+          <p>0</p>
+        </div>
+        <i class="fa-solid fa-gear fa-xl btn"></i>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+
+    <main>
+      <section class="friends-container">
+        <h1>Accueil</h1>
+
+    <!-- Liste Container Header Friends -->
+
+    <div class="friends-header-container">
+          <h2 class="title">Amis (162)</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+    <!-- Liste Container Friends -->
+
+    <!-- <div class="friends-list-container">
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-8E156F5356D35B8AC6FDB339DA94C0E3-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-1"
+            />
+            <img class="btn-inline" src="/image/game.png" alt="game" />
+            <h3 class="player-title">Jasper</h3>
+            <p class="small-text">Tour de l'enf...</p>
+
+            <div id="pop-up">
+              <img
+                src="/image/game-recommend-4.png"
+                alt="game-tower"
+              />
+              <h3>Tour de l'enfer</h3>
+              <button>Rejoindre</button>
+              <p><i class="fa-solid fa-comment"></i>Discuter avec Jasper</p>
+              <p><i class="fa-solid fa-file"></i>Voir le profil</p>
+            </div>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-D6481C6D75221D672B7CF0C991C2F46B-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-2"
+            />
+            <img class="btn-inline" src="/image/game.png" alt="game" />
+            <h3 class="player-title">Theo_RCS67</h3>
+            <p class="small-text">Piggy</p>
+
+            <div id="pop-up">
+              <img src="/image/game-recommend-2.png" alt="game-piggy" />
+              <h3>Piggy</h3>
+              <button>Rejoindre</button>
+              <p><i class="fa-solid fa-comment"></i>Discuter avec Theo_RCS67</p>
+              <p><i class="fa-solid fa-file"></i>Voir le profil</p>
+            </div>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-91A7624EECED250D819886D585D03CBF-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-3"
+            />
+            <img class="btn-inline" src="/image/game.png" alt="game" />
+            <h3 class="player-title">ManuellaJoe...</h3>
+            <p class="small-text">Paperface</p>
+
+            <div id="pop-up">
+              <img
+                src="https://tr.rbxcdn.com/180DAY-6c1728c0cfc9db056783919270533420/256/256/Image/Webp/noFilter"
+                alt="game-paperface"
+              />
+              <h3>Paperface</h3>
+              <button>Rejoindre</button>
+              <p>
+                <i class="fa-solid fa-comment"></i>Discuter avec
+                ManuellaJoeffrey
+              </p>
+              <p><i class="fa-solid fa-file"></i>Voir le profil</p>
+            </div>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-9E6D61970F12FC4F8FD6BD885A27232C-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-4"
+            />
+            <img class="btn-inline" src="/image/game.png" alt="game" />
+            <h3 class="player-title">Reppelinio</h3>
+            <p class="small-text">Blaire</p>
+
+            <div id="pop-up">
+              <img
+                src="https://tr.rbxcdn.com/180DAY-f9ba7f8fa0ae79a461cfc362fcc7008b/768/432/Image/Webp/noFilter"
+                alt="game-blaire"
+              />
+              <h3>Blaire</h3>
+              <button>Rejoindre</button>
+              <p><i class="fa-solid fa-comment"></i>Discuter avec Reppelinio</p>
+              <p><i class="fa-solid fa-file"></i>Voir le profil</p>
+            </div>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-6BE62D523550AA0F75447643636A3751-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-5"
+            />
+            <h3 class="player-title">le_coyotte6...</h3>
+            <i class="fa-regular fa-user btn-online"></i>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-92DA2FDBA16679B96A873839ABCDB93A-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-6"
+            />
+            <h3 class="player-title">keppa</h3>
+            <i class="fa-regular fa-user btn-online"></i>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-3EC83CD0E05E26124830A67011E4C6E3-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-7"
+            />
+            <i class="fa-regular fa-user btn-online"></i>
+            <h3 class="player-title">sad</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-ED31AA0044A02E5D496FA3B0F78ACBA7-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-8"
+            />
+            <h3 class="player-title">MrBacon</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-CD002B728281F3397A994E5D7514A14B-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-9"
+            />
+            <h3 class="player-title">oaseure</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-E670BE494D1F772B75E01E6ED87CEA39-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-10"
+            />
+            <h3 class="player-title">CasperX</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-3F7D2FAE0C9EFBD5DAB21D6D0EB3DD4F-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-11"
+            />
+            <h3 class="player-title">Suk0o</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-3E47CC99D0704BF683F166C2B492CDC0-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-12"
+            />
+            <h3 class="player-title">enzo_r832</h3>
+          </div>
+
+          <div class="friends-list-player">
+            <img
+              src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-757D736D15DD17BD3A09EF85A7CDBDEC-Png/150/150/AvatarHeadshot/Webp/noFilter"
+              alt="player-13"
+            />
+            <h3 class="player-title">PainPoelon</h3>
+          </div>
+        </div>
+      </section> -->
+
+    <!-- Section Recommend -->
+
+    <!-- <section class="recommend-container">
+        <h2 class="title">Recommandé pour toi</h2>
+
+        <div class="recommend-list-container">
+          <div class="game-container">
+            <img src="/image/game-recommend-1.png" alt="recommend-game-1" />
+            <h3>Ophelia</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-2.png" alt="recommend-game-2" />
+            <h3>Piggy</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>89% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-3.png" alt="recommend-game-3" />
+            <h3>Guess The Location</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>77% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-4.png" alt="recommend-game-4" />
+            <h3>Tour de l'enfer</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>73% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-5.png" alt="recommend-game-5" />
+            <h3>[UPD] Tueur secret</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-6.png" alt="recommend-game-6" />
+            <h3>Duels meurtriers VS shérifs</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>84% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-7.png" alt="recommend-game-7" />
+            <h3>Spider</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>73% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-8.png" alt="recommend-game-8" />
+            <h3>[NOUVEAU] E.R.P.O</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>95% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-9.png" alt="recommend-game-9" />
+            <h3>Meurtre en Math</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91% note
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-10.png" alt="recommend-game-10" />
+            <h3>Course de drapeaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86% note
+            </p>
+          </div>
+        </div>
+      </section>
+ -->
+    <!-- Section Continue -->
+
+    <!-- <section class="continue-container">
+        <div class="friends-header-container">
+          <h2 class="title">Continuer</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="continue-list-container">
+          <div class="game-container">
+            <img src="/image/game-recommend-2.png" alt="continue-1" />
+            <h3>Piggy</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>89% note
+              <i class="fa-solid fa-user-tie"></i> 24.6K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-7c974c4875318916cf061b99a92fd03b/256/256/Image/Webp/noFilter"
+              alt="continue-2"
+            />
+            <h3>Arsenal</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>88% note
+              <i class="fa-solid fa-user-tie"></i> 6.5K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-edc5b18d65ac3902abc8afa909e0aa50/256/256/Image/Webp/noFilter"
+              alt="continue-3"
+            />
+            <h3>Zombie Attack</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94% note
+              <i class="fa-solid fa-user-tie"></i> 2K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-04f89cdfd691e7deac47075f5e0af9e4/256/256/Image/Webp/noFilter"
+              alt="continue-4"
+            />
+            <h3>Chaise musicales pour 100 joueurs</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>83% note
+              <i class="fa-solid fa-user-tie"></i> 7.4K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-646a6eb533ebc78bbfdeb7327e6888a5/256/256/Image/Webp/noFilter"
+              alt="continue-5"
+            />
+            <h3>[UPD] Légendes du volleyball</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>96% note
+              <i class="fa-solid fa-user-tie"></i> 76.8K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-1b89217f974dd09b47f10d37e95daf5f/256/256/Image/Webp/noFilter"
+              alt="continue-6"
+            />
+            <h3>Cache-toi ou meurs</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86% note
+              <i class="fa-solid fa-user-tie"></i> 15.5K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="/image/game-recommend-3.png" alt="continue-7" />
+            <h3>Guess The Location</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>77% note
+              <i class="fa-solid fa-user-tie"></i> 2.9K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img
+              src="https://tr.rbxcdn.com/180DAY-6c1728c0cfc9db056783919270533420/256/256/Image/Webp/noFilter"
+              alt="continue-8"
+            />
+            <h3>Paperface</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>87% note
+              <i class="fa-solid fa-user-tie"></i> 1.6K
+            </p>
+          </div>
+        </div>
+      </section>
+    </main> -->
+  </body>
+</html>

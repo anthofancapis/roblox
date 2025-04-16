@@ -1,0 +1,290 @@
+/* Header */
+
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--background);
+  min-height: 4.5rem;
+  z-index: 100;
+}
+
+header .header-link{
+  display: flex;
+  align-items: center;
+}
+
+header .header-link a {
+  padding: 0.6rem 3.2rem;
+  border: 1px solid transparent;
+}
+
+header .search-container {
+  position: relative;
+}
+
+header .search-container i {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  color: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
+header .search-container input {
+  color: var(--text);
+  padding: 0.8rem 20rem 0.8rem 3.5rem;
+  border: 1px solid var(--hint);
+  border-radius: 1rem;
+  outline: 0;
+  background-color: var(--dark2);
+}
+
+header .header-logo {
+  margin: 0 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header .header-logo img {
+  height: 3rem;
+  min-width: 3rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+header .header-logo a {
+  padding: 0;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 23.5rem;
+}
+
+header nav img {
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+
+header nav h3 {
+  font-size: 1.4rem;
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+
+header nav p {
+  margin-right: 1.5rem;
+}
+
+header nav i {
+  position: relative;
+}
+
+header nav i span {
+  position: absolute;
+  background-color: red;
+  font-size: 0.9rem;
+  border-radius: 50%;
+  padding: 0.6rem 0.4rem;
+  top: 10%;
+  right: 15%;
+}
+
+header .container-robux {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 1.7rem;
+  margin-right: 0.4rem;
+}
+
+header .container-robux img {
+  background-color: var(--background);
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+header .container-robux p {
+  padding-left: 0.5rem;
+}
+
+/* Main */
+
+main {
+  padding: 2.5rem 2.7rem 0;
+}
+
+main .friends-container h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0.1rem;
+  padding: 5rem 0 1.5rem;
+  font-weight: 700;
+}
+
+main .friends-header-container {
+  margin: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .friends-list-container {
+  display: flex;
+  flex-flow: row nowrap;
+  min-width: 100%;
+  padding: 0 1rem;
+  justify-content: space-evenly;
+}
+
+main .friends-list-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+main .friends-list-player img:first-child {
+  border-radius: 50%;
+  max-width: 9rem;
+  background-color: var(--text);
+}
+
+main .friends-list-player img:nth-child(2) {
+  position: absolute;
+  max-width: 2.5rem;
+  right: 3%;
+  bottom: 35%;
+}
+
+main .friends-list-player p {
+  padding-top: 0.2rem;
+}
+
+main .friends-list-player i {
+  font-size: 2rem;
+  position: absolute;
+  right: 3%;
+  bottom: 35%;
+}
+
+main .recommend-container {
+  padding: 3rem 0;
+}
+
+main .recommend-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "ophelia piggy guesser tower killer"
+    "duel spider erpo math country";
+}
+
+main .recommend-list-container > .game-container:first-child {
+  grid-area: ophelia;
+}
+
+main .recommend-list-container > .game-container:nth-child(2) {
+  grid-area: piggy;
+}
+
+main .recommend-list-container > .game-container:nth-child(3) {
+  grid-area: guesser;
+}
+
+main .recommend-list-container > .game-container:nth-child(4) {
+  grid-area: tower;
+}
+
+main .recommend-list-container > .game-container:nth-child(5) {
+  grid-area: killer;
+}
+
+main .recommend-list-container > .game-container:nth-child(6) {
+  grid-area: duel;
+}
+
+main .recommend-list-container > .game-container:nth-child(7) {
+  grid-area: spider;
+}
+
+main .recommend-list-container > .game-container:nth-child(8) {
+  grid-area: erpo;
+}
+
+main .recommend-list-container > .game-container:nth-child(9) {
+  grid-area: math;
+}
+
+main .recommend-list-container > .game-container:nth-child(10) {
+  grid-area: country;
+}
+
+main .game-container {
+  border-radius: 1rem;
+  padding: 1.4rem;
+  transition: background-color 0.5s 0.2s;
+  cursor: pointer;
+}
+
+main .game-container img {
+  border-radius: 1rem;
+}
+
+main .game-container h3 {
+  margin-top: 0.6rem;
+}
+
+main .continue-container {
+  padding-bottom: 3rem;
+}
+
+main .continue-list-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+main .continue-list-container > .game-container {
+  min-height: 20rem;
+}
+
+main .continue-list-container > .game-container img {
+  min-height: 15rem;
+  min-width: 15rem;
+}
+
+main .continue-list-container i:nth-child(2) {
+  padding-left: 1rem;
+  padding-right: 0.3rem;
+}
+
+main .continue-list-container > .game-container:first-child h3 {
+  margin-bottom: 2rem;
+}
+
+main .continue-list-container > .game-container:nth-child(2) h3 {
+  margin-bottom: 2rem;
+}
+
+main .continue-list-container > .game-container:nth-child(3) h3 {
+  margin-bottom: 2rem;
+}
+
+main .continue-list-container > .game-container:nth-child(7) h3 {
+  margin-bottom: 2rem;
+}
+
+main .continue-list-container > .game-container:nth-child(8) h3 {
+  margin-bottom: 2rem;
+}
+
+main .friends-list-player:first-child #pop-up{
+  left: -40px;
+}
