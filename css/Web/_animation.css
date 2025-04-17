@@ -1,0 +1,29 @@
+@keyframes spin-bounce{
+    0%{
+        transform: rotate(0);
+    }
+
+    30%{
+        transform: rotate(190deg);
+    }
+
+    38%{
+        transform: rotate(170deg);
+    }
+
+    43%{
+        transform: rotate(183deg);
+    }
+
+    47%{
+        transform: rotate(178deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    100%{
+        transform: rotate(180deg);
+    }
+}
