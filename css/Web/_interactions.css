@@ -50,6 +50,10 @@ main .game-container:hover {
   color: var(--text);
 }
 
+footer .footer-link li a:hover{
+  color: var(--text);
+}
+
 
 
 
