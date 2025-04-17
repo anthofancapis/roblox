@@ -34,4 +34,46 @@
   #pop-up-left {
     display: none;
   }
+
+  main .recommend-list-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "ophelia piggy"
+      "guesser tower";
+  }
+
+  main .recommend-container h2{
+    padding: 0 0 1rem 1rem;
+  }
+
+  main .recommend-list-container > .game-container:nth-child(5) {
+    grid-area: killer;
+    display: none;
+  }
+  
+  main .recommend-list-container > .game-container:nth-child(6) {
+    grid-area: duel;
+    display: none;
+  }
+  
+  main .recommend-list-container > .game-container:nth-child(7) {
+    grid-area: spider;
+    display: none;
+  }
+  
+  main .recommend-list-container > .game-container:nth-child(8) {
+    grid-area: erpo;
+    display: none;
+  }
+  
+  main .recommend-list-container > .game-container:nth-child(9) {
+    grid-area: math;
+    display: none;
+  }
+  
+  main .recommend-list-container > .game-container:nth-child(10) {
+    grid-area: country;
+    display: none;
+  }
 }
