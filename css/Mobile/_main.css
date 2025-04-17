@@ -104,5 +104,16 @@
   .continue-list-container > .game-container:nth-child(8) {
     display: none;
   }
+
+  main .favorite-container{
+    padding: 1.5rem 0;
+  }
+
+  main .favorite-list-container {
+    padding: 0 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+  }
   
 }

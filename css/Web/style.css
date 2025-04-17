@@ -289,3 +289,30 @@ main .continue-list-container > .game-container:nth-child(8) h3 {
 main .friends-list-player:first-child #pop-up {
   left: -40px;
 }
+
+main .favorite-container {
+  padding-bottom: 0.5rem;
+}
+
+main .favorite-list-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  gap: 1.5rem;
+}
+
+main .favorite-list-container > .game-container {
+  min-height: 20rem;
+  padding: 0;
+}
+
+main .favorite-list-container > .game-container img {
+  max-height: 16rem;
+  max-width: 16rem;
+}
+
+main .favorite-list-container i:nth-child(2) {
+  padding-left: 1rem;
+  padding-right: 0.3rem;
+}
+
