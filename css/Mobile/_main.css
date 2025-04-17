@@ -35,6 +35,10 @@
     display: none;
   }
 
+  main .friends-list-player img:nth-child(2) {
+    right: 15%;
+  }
+
   main #pop-up,
   #pop-up-left {
     display: none;
