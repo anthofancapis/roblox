@@ -1,13 +1,37 @@
-@media screen and (max-width: 480px){
-    main{
-        padding: 2.4rem 0 0;
-    }
+@media screen and (max-width: 480px) {
+  main {
+    padding: 2.4rem 0 0;
+  }
 
-    main .friends-container h1{
-        padding: 1rem 0;
-    }
+  main .friends-container h1 {
+    padding: 1rem 0;
+  }
 
-    main .friends-container{
-        padding: 0 1.5rem;
-    }
+  main .friends-container {
+    padding: 0 1.5rem;
+  }
+
+  main .friends-list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    padding: 0;
+  }
+
+  main .friends-list-player:nth-child(5),
+  .friends-list-player:nth-child(6),
+    .friends-list-player:nth-child(7),
+    .friends-list-player:nth-child(8),
+    .friends-list-player:nth-child(9),
+    .friends-list-player:nth-child(10),
+    .friends-list-player:nth-child(11),
+    .friends-list-player:nth-child(12),
+    .friends-list-player:nth-child(13) {
+    display: none;
+  }
+
+  main #pop-up,
+  #pop-up-left {
+    display: none;
+  }
 }
