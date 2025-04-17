@@ -307,8 +307,8 @@ main .favorite-list-container > .game-container {
 }
 
 main .favorite-list-container > .game-container img {
-  max-height: 16rem;
-  max-width: 16rem;
+  max-height: 160px;
+  max-width: 160px;
 }
 
 main .favorite-list-container i:nth-child(2) {
