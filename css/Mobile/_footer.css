@@ -7,4 +7,17 @@
     footer .footer-link{
         justify-content: center;
     }
+
+    footer .footer-select-language{
+        flex-direction: column;
+    }
+
+    footer .footer-select-language select{
+        padding: 0;
+    }
+
+    footer .footer-select-language p{
+        padding-top: 2rem;
+        margin: 0;
+    }
 }

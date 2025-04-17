@@ -54,6 +54,14 @@ footer .footer-link li a:hover{
   color: var(--text);
 }
 
+footer .footer-select-language select:hover{
+  color: var(--text);
+  border-top: 1px solid white;
+}
+
+footer .footer-select-language select option:hover{
+  background-color: var(--hint);
+}
 
 
 
