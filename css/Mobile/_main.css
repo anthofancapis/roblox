@@ -90,7 +90,7 @@
   }
 
   main .continue-list-container > .game-container:nth-child(3) p {
-    padding-top: 0.9rem;
+    padding-top: 1rem;
   }
 
   main .continue-list-container > .game-container:first-child img {
