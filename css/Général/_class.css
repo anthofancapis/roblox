@@ -55,7 +55,7 @@
   border-radius: 0.8rem;
   width: 310px;
   z-index: 10;
-  bottom: -165px;
+  bottom: -190px;
   display: grid;
   grid-template-columns: 110px auto;
   grid-template-rows: 55px 45px auto auto;
