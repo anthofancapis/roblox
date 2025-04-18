@@ -39,8 +39,7 @@
     right: 13%;
   }
 
-  main #pop-up,
-  #pop-up-left {
+  main #pop-up {
     display: none;
   }
 
