@@ -94,7 +94,7 @@
   margin-bottom: 0.8rem;
 }
 
-#pop-up p {
+#pop-up p, #pop-up-deconnection p {
   display: inline-flex;
   align-items: center;
   font-size: 1.7rem;
@@ -116,7 +116,7 @@
   border-bottom-right-radius: 0.8rem;
 }
 
-#pop-up p i{
+#pop-up p i, #pop-up-deconnection p i{
   padding-left: 1.2rem;
   position: static;
 }
@@ -124,3 +124,26 @@
 .friends-list-player:first-child #pop-up {
   left: -40px;
 }
+
+#pop-up-deconnection{
+  visibility: hidden;
+  position: absolute;
+  background-color: var(--dark-grey);
+  border-radius: 0.8rem;
+  width: 240px;
+  z-index: 10;
+  bottom: -70px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#pop-up-deconnection p:nth-of-type(2){
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+
+
+
+

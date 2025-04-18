@@ -39,7 +39,7 @@
     right: 13%;
   }
 
-  main #pop-up {
+  main #pop-up, #pop-up-deconnection {
     display: none;
   }
 

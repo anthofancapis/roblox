@@ -50,6 +50,18 @@ main .game-container:hover {
   color: var(--text);
 }
 
+.friends-list-player:hover #pop-up-deconnection {
+  visibility: visible;
+}
+
+#pop-up-deconnection p:hover{
+  background-color:rgb(61, 61, 61);
+}
+
+#pop-up-deconnection p:hover i{
+  color: var(--text);
+}
+
 footer .footer-link li a:hover{
   color: var(--text);
 }
