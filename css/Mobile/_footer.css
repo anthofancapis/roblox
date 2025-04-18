@@ -13,7 +13,12 @@
     }
 
     footer .footer-select-language select{
-        padding: 0;
+        padding-left: 3rem;
+    }
+
+    footer .footer-select-language i{
+        left: 2%;
+        top: 23%;
     }
 
     footer .footer-select-language p{

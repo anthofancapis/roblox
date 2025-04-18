@@ -61,9 +61,5 @@ footer .footer-select-language select:hover{
 
 footer .footer-select-language select option:hover{
   background-color: var(--hint);
+  color: var(--text);
 }
-
-
-
-
-
