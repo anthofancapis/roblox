@@ -6,6 +6,7 @@
 
     footer .footer-link{
         justify-content: center;
+        height: 150px;
     }
 
     footer .footer-select-language{
