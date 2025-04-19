@@ -39,7 +39,8 @@
     right: 13%;
   }
 
-  main #pop-up, #pop-up-deconnection {
+  main #pop-up,
+  #pop-up-deconnection {
     display: none;
   }
 
@@ -108,7 +109,7 @@
     display: none;
   }
 
-  main .favorite-container{
+  main .favorite-container {
     padding: 1.5rem 0;
   }
 
@@ -118,9 +119,99 @@
     grid-template-rows: auto;
   }
 
-  main .favorite-list-container > .game-container img{
+  main .favorite-list-container > .game-container img {
     max-width: 115px;
     max-height: 115px;
   }
-  
+}
+
+@media (min-width: 550px) and (max-width: 1024px) {
+  main {
+    padding: 2rem 2.4rem 0 2.4rem;
+  }
+
+  main .friends-header-container {
+    margin-bottom: 1rem;
+  }
+
+  main .friends-list-container {
+    padding: 0;
+  }
+
+  main .friends-list-player:nth-child(9),
+  .friends-list-player:nth-child(10),
+  .friends-list-player:nth-child(11),
+  .friends-list-player:nth-child(12),
+  .friends-list-player:nth-child(13) {
+    display: none;
+  }
+
+  main #pop-up,
+  #pop-up-deconnection {
+    display: none;
+  }
+
+  main .recommend-list-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "ophelia piggy guesser tower"
+      "killer duel spider erpo";
+  }
+
+  main .recommend-list-container > .game-container:nth-child(9),
+  .recommend-list-container > .game-container:nth-child(10) {
+    display: none;
+  }
+
+  main .continue-container > .friends-header-container{
+    margin: 0.3rem 0 1rem;
+  }
+
+  main .continue-container > .friends-header-container h2{
+    padding: 0;
+  }
+
+  main .continue-list-container {
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+
+  main .continue-list-container > .game-container{
+    padding: 0;
+  }
+
+  main .continue-list-container > .game-container:nth-child(7),
+  .continue-list-container > .game-container:nth-child(8){
+    display: none;
+  }
+
+  main .recommend-list-container{
+    gap: 1.5rem;
+  }
+
+  main .recommend-list-container > .game-container{
+    padding: 0;
+  }
+
+  main .recommend-list-container > .game-container:nth-child(12),
+  .recommend-list-container > .game-container:nth-child(16){
+    display: none;
+  }
+
+  main .favorite-container{
+    margin: 4rem 0;
+  }
+
+  main .favorite-list-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  main .favorite-list-container > .game-container img{
+    max-width: 150px;
+    max-height: 150px;
+  }
 }

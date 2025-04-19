@@ -27,3 +27,25 @@
         margin: 0;
     }
 }
+
+@media (min-width:550px) and (max-width:1024px){
+
+    footer{
+        margin: 0;
+    }
+
+    footer .footer-link{
+        justify-content: center;
+    }
+
+    footer .footer-link a{
+        padding: 0 1rem;
+    }
+
+    footer .footer-select-language p{
+        margin: 0;
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+
+}
