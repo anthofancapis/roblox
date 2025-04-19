@@ -125,7 +125,7 @@
   }
 }
 
-@media (min-width: 550px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   main {
     padding: 2rem 2.4rem 0 2.4rem;
   }
