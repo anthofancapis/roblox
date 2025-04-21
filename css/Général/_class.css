@@ -125,6 +125,10 @@
   left: -40px;
 }
 
+.friends-list-player:last-child #pop-up-deconnection{
+  right: -40px;
+}
+
 #pop-up-deconnection{
   visibility: hidden;
   position: absolute;
