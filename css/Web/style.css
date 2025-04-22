@@ -46,7 +46,7 @@ header .header-logo {
   align-items: center;
 }
 
-header .header-logo img {
+header .header-logo .logo-roblox {
   height: 3rem;
   min-width: 3rem;
   margin-left: 0.5rem;

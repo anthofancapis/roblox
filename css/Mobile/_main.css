@@ -114,9 +114,10 @@
   }
 
   main .favorite-list-container {
-    padding: 0 1.5rem;
+    padding: 0 0.7rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    gap: 1rem;
   }
 
   main .favorite-list-container > .game-container img {
@@ -146,8 +147,7 @@
     display: none;
   }
 
-  main #pop-up,
-  #pop-up-deconnection {
+  main #pop-up, main #pop-up-deconnection {
     display: none;
   }
 

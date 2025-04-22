@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/css/Mobile/_main.css">
     <link rel="stylesheet" href="/css/Web/_animation.css">
     <link rel="stylesheet" href="/css/Mobile/_footer.css">
+    <link rel="stylesheet" href="/css/Modules/pop_up.css">
+    <link rel="stylesheet" href="/css/Modules/sidebar.css">
     <title>Accueil - Roblox</title>
   </head>
   <body>
@@ -32,9 +34,32 @@
 
     <header>
       <div class="header-logo">
-        <button><i class="fa-solid fa-bars fa-xl btn"></i></button>
+        <button id="sidebar-btn"><i class="fa-solid fa-bars fa-xl btn">
+
+          <div id="sidebar">
+            <div class="sidebar-title">
+              <img src="/image/profil-player-actif.png" alt="profil-player">
+              <h3>antho_mrqs67</h3>
+            </div>
+
+           <ul>
+              <li><a href="/index.html"><i class="fa-solid fa-house"></i>Accueil</a></li>
+              <li><a href="#"><i class="fa-solid fa-user"></i>Profil</a></li>
+              <li><a href="#"><i class="fa-solid fa-comment"></i>Message</a></li>
+              <li><a href="#"><i class="fa-solid fa-user-group"></i>Amis</a></li>
+              <li><a href="#"><i class="fa-solid fa-person"></i>Avatar</a></li>
+              <li><a href="#">Inventaire</a></li>
+              <li><a href="#">Échange</a></li>
+              <li><a href="#">Communautés</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Boutique offici...</a></li>
+              <li><a href="#">Cartes-Cadeaux</a></li>
+            </ul>
+
+          </div>
+        </i></button>
         <a href="/index.html"
-          ><img
+          ><img class="logo-roblox"
             src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjY3NiAwTDAgNDQuMTY2IDQzLjU3NyA1NmwxMS42NzYtNDQuMTY2TDExLjY3NiAwem0yMC40MDkgMzUuODI3bC0xMi4xNzctMy4zMDggMy4yNjQtMTIuMzQyIDEyLjE4MiAzLjMwOC0zLjI3IDEyLjM0MnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
             alt="logo-roblox"
         /></a>
@@ -484,7 +509,7 @@
 
       <!-- Section Recommend -->
 
-      <section class="recommend-container">
+     <section class="recommend-container">
         <h2 class="title">Recommandé pour toi</h2>
 
         <div class="recommend-list-container">
@@ -696,7 +721,7 @@
 
     <!-- Footer -->
 
-   <footer>
+   <!-- <footer>
       <ul class="footer-link">
         <li><a href="#">À propos</a></li>
         <li><a href="#">Emplois</a></li>
@@ -726,6 +751,8 @@
         <p>&copy;2025 Roblox Corporation. Roblox, le logo Roblox et Powering Imagination font partie de nos marques de commerce déposées ou non, aux États-Unis et dans d'autres pays.</p>
       </div>
 
-    </footer>
+    </footer> -->
+    <script src="/JavaScript/sidebar.js"></script>
   </body>
 </html>
+

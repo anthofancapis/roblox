@@ -62,6 +62,8 @@ main .game-container:hover {
   color: var(--text);
 }
 
+/* Footer */
+
 footer .footer-link li a:hover{
   color: var(--text);
 }
