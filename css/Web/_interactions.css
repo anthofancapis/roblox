@@ -24,6 +24,11 @@ header nav h3:hover {
   text-decoration: underline;
 }
 
+#sidebar li:hover i{
+  color: white;
+}
+
+
 /* Main */
 
 .see-btn:hover {

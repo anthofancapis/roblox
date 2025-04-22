@@ -56,6 +56,10 @@
   padding: 1rem 0;
 }
 
+#sidebar ul li a i{
+    color: rgb(210, 210, 210);
+}
+
 #sidebar ul li a {
   font-size: 1.8rem;
   margin: 0.4rem;
