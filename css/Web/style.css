@@ -7,6 +7,7 @@ header {
   position: fixed;
   background-color: var(--background);
   min-height: 4.5rem;
+  overflow: auto;
   z-index: 100;
 }
 
@@ -397,7 +398,6 @@ main .select-device-container select{
   color: var(--light-grey);
   background-color: var(--dark-grey);
   border-radius: 2rem;
-  width: 40%;
   padding: 0 5rem;
   font-weight: 600;
   border: 0;
@@ -410,4 +410,5 @@ main .select-device-container select::after{
   color: var(--light-grey);
   position: absolute;
   right: 1.2rem;
+  top: 50%;
 }
