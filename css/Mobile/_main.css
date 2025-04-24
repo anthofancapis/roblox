@@ -139,7 +139,8 @@
   }
 
   main .trend-list-container > .game-container {
-    height: 160px;
+    height: 200px;
+    margin-bottom: 2rem;
   }
 
   main .trend-list-container > .game-container img{
