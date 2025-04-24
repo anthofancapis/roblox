@@ -9,6 +9,11 @@
       "link link link link";
   }
 
+  header #sidebar{
+    top: 8.5%;
+    height: 91.5%;
+  }
+
   header .header-logo {
     grid-area: logo;
     padding-top: 0.5rem;
@@ -77,6 +82,11 @@
   header nav .small-text {
     margin-left: 0.5rem;
     font-size: 0.9rem;
+  }
+
+  header #sidebar{
+    top: 7.5%;
+    height: 92.5%;
   }
 
 }

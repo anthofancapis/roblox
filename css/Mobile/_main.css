@@ -8,7 +8,7 @@
   }
 
   main .friends-container h1 {
-    padding: 1rem 0;
+    padding: 7rem 0 1rem;
   }
 
   main .friends-container {
@@ -129,6 +129,10 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   main {
     padding: 2rem 2.4rem 0 2.4rem;
+  }
+
+  main .friends-container h1 {
+    padding: 5rem 0 1rem;
   }
 
   main .friends-header-container {
