@@ -137,6 +137,15 @@
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
   }
+
+  main .trend-list-container > .game-container {
+    height: 160px;
+  }
+
+  main .trend-list-container > .game-container img{
+    width: 110px;
+    height: 90px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

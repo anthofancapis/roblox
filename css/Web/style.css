@@ -408,9 +408,8 @@ main .trend-list-container > .game-container {
 }
 
 main .trend-list-container > .game-container img{
-  min-height: 150px;
+  height: 150px;
   max-width: 150px;
-  transition: scale 0.3s ease-in-out;
 }
 
 main .trend-list-container i:nth-child(2) {
