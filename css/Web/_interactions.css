@@ -82,3 +82,9 @@ footer .footer-select-language select option:hover{
   background-color: var(--hint);
   color: var(--text);
 }
+
+/* Charts */
+
+main .trend-list-container > .game-container:hover {
+  background-color: transparent;
+}

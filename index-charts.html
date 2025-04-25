@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cdae3be931.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/Web/style.css" />
+    <link rel="stylesheet" href="/css/Général/variable.css" />
+    <link rel="stylesheet" href="/css/Général/_reset.css" />
+    <link rel="stylesheet" href="/css/Général/_base.css" />
+    <link rel="stylesheet" href="/css/Web/_interactions.css" />
+    <link rel="stylesheet" href="/css/Général/_class.css" />
+    <link rel="stylesheet" href="/css/Mobile/_header.css" />
+    <link rel="stylesheet" href="/css/Mobile/_main.css">
+    <link rel="stylesheet" href="/css/Web/_animation.css">
+    <link rel="stylesheet" href="/css/Mobile/_footer.css">
+    <link rel="stylesheet" href="/css/Modules/pop_up.css">
+    <link rel="stylesheet" href="/css/Modules/sidebar.css">
+    <title>Charts - Roblox</title>
+</head>
+<body>
+    <!-- Header -->
+
+    <header>
+        <div class="header-logo">
+          <button id="sidebar-btn"><i class="fa-solid fa-bars fa-xl btn">
+  
+            <div id="sidebar">
+              <div class="sidebar-title">
+                <img src="/image/profil-player-actif.png" alt="profil-player">
+                <h3>antho_mrqs67</h3>
+              </div>
+  
+             <ul>
+                <li><a href="/index.html"><i class="fa-solid fa-house"></i>Accueil</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i>Profil</a></li>
+                <li><a href="#"><i class="fa-solid fa-comment"></i>Messages</a></li>
+                <li><a href="#"><i class="fa-solid fa-user-group"></i>Amis</a></li>
+                <li><a href="#"><i class="fa-solid fa-person"></i>Avatar</a></li>
+                <li><a href="#"><i class="fa-solid fa-suitcase"></i>Inventaire</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrows-rotate"></i>Échange</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i>Communautés</a></li>
+                <li><a href="#"><i class="fa-solid fa-floppy-disk"></i>Blog</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Boutique Offi...</a></li>
+                <li><a href="#"><i class="fa-solid fa-sim-card"></i>Cartes-Cadeaux</a></li>
+              </ul>
+  
+            </div>
+          </i></button>
+          <a href="/index.html"
+            ><img class="logo-roblox"
+              src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjY3NiAwTDAgNDQuMTY2IDQzLjU3NyA1NmwxMS42NzYtNDQuMTY2TDExLjY3NiAwem0yMC40MDkgMzUuODI3bC0xMi4xNzctMy4zMDggMy4yNjQtMTIuMzQyIDEyLjE4MiAzLjMwOC0zLjI3IDEyLjM0MnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+              alt="logo-roblox"
+          /></a>
+        </div>
+        <div class="header-link">
+          <a href="/index-charts.html">Charts</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Créer</a>
+          <a href="#">Robux</a>
+          <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Rechercher" type="text" />
+          </div>
+        </div>
+  
+        <!-- Header Nav -->
+  
+        <nav>
+          <img src="/image/profil-player-actif.png" alt="profil-player" />
+          <h3>antho_mrqs67</h3>
+          <p class="small-text">13+</p>
+          <i class="fa-solid fa-bell fa-xl btn"><span>6</span></i>
+          <div class="container-robux btn">
+            <img src="/image/logo-robux.png" alt="logo-robux" />
+            <p>0</p>
+          </div>
+          <i class="fa-solid fa-gear fa-xl btn"></i>
+        </nav>
+      </header>
+
+
+      <!-- Main Content -->
+
+      <main>
+        <section class="charts-header-container">
+          <h1>Charts</h1>
+
+          <div class="select-device-container">
+              <p>Populaire sur :</p>
+              <select name="device" id="device">
+                <option value="PC">Ordinateur</option>
+              </select>
+              <select name="location" id="location">
+                <option value="all-location">Toutes les locations</option>
+              </select>
+          </div>
+      </section>
+
+      <!-- Trend Container -->
+
+      <section class="trend-container">
+        <div class="header-container">
+          <h2 class="title">Le top des tendances</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="trend-list-container">
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-37cc49a6bdb03b5a4394db84ff264fe5/768/432/Image/Webp/noFilter" alt="trend-game-1" />
+            <h3>Blox Fruits</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91%
+              <i class="fa-solid fa-user-tie"></i> 405K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7499187ef690ab769c1d2b4a8a7e36ff/768/432/Image/Webp/noFilter" alt="trend-game-2" />
+            <h3>Faire pousser un jardin</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>93%
+              <i class="fa-solid fa-user-tie"></i> 137K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-868fec92f74ff0f2a9082a6422ef39a0/768/432/Image/Webp/noFilter" alt="trend-game-3" />
+            <h3>Tower defense simulator</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94%
+              <i class="fa-solid fa-user-tie"></i> 27.7K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-9a772a077cbd18a9337cacda01472604/768/432/Image/Webp/noFilter" alt="trend-game-4" />
+            <h3>Squid Game</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86%
+              <i class="fa-solid fa-user-tie"></i> 4.3K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-8f1234005f4bcc5bf85549fb2f301347/768/432/Image/Webp/noFilter" alt="trend-game-5" />
+            <h3>Brookhaven RP</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81%
+              <i class="fa-solid fa-user-tie"></i> 577K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/768/432/Image/Webp/noFilter" alt="trend-game-6" />
+            <h3>L'Attaque des Titans</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>80% 
+              <i class="fa-solid fa-user-tie"></i> 55K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter" alt="trend-game-7" />
+            <h3>Murder Mystery 2</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>97%
+              <i class="fa-solid fa-user-tie"></i> 117K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-a9306698a282e638a1688f1ca428a834/768/432/Image/Webp/noFilter" alt="trend-game-8" />
+            <h3>SCP-3008</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>90% 
+              <i class="fa-solid fa-user-tie"></i> 17K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7271d0277dc4641a87ee00f094eacb69/768/432/Image/Webp/noFilter" alt="trend-game-9" />
+            <h3>Obtenez tous les animaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>76% 
+              <i class="fa-solid fa-user-tie"></i> 37K
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Most Popular Container -->
+
+      <section class="charts-container">
+        <div class="header-container">
+          <h2 class="title">Les plus populaires</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="trend-list-container">
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-37cc49a6bdb03b5a4394db84ff264fe5/768/432/Image/Webp/noFilter" alt="trend-game-1" />
+            <h3>Blox Fruits</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91%
+              <i class="fa-solid fa-user-tie"></i> 405K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7499187ef690ab769c1d2b4a8a7e36ff/768/432/Image/Webp/noFilter" alt="trend-game-2" />
+            <h3>Faire pousser un jardin</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>93%
+              <i class="fa-solid fa-user-tie"></i> 137K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-868fec92f74ff0f2a9082a6422ef39a0/768/432/Image/Webp/noFilter" alt="trend-game-3" />
+            <h3>Tower defense simulator</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94%
+              <i class="fa-solid fa-user-tie"></i> 27.7K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-9a772a077cbd18a9337cacda01472604/768/432/Image/Webp/noFilter" alt="trend-game-4" />
+            <h3>Squid Game</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86%
+              <i class="fa-solid fa-user-tie"></i> 4.3K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-8f1234005f4bcc5bf85549fb2f301347/768/432/Image/Webp/noFilter" alt="trend-game-5" />
+            <h3>Brookhaven RP</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81%
+              <i class="fa-solid fa-user-tie"></i> 577K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/768/432/Image/Webp/noFilter" alt="trend-game-6" />
+            <h3>L'Attaque des Titans</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>80% 
+              <i class="fa-solid fa-user-tie"></i> 55K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter" alt="trend-game-7" />
+            <h3>Murder Mystery 2</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>97%
+              <i class="fa-solid fa-user-tie"></i> 117K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-a9306698a282e638a1688f1ca428a834/768/432/Image/Webp/noFilter" alt="trend-game-8" />
+            <h3>SCP-3008</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>90% 
+              <i class="fa-solid fa-user-tie"></i> 17K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7271d0277dc4641a87ee00f094eacb69/768/432/Image/Webp/noFilter" alt="trend-game-9" />
+            <h3>Obtenez tous les animaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>76% 
+              <i class="fa-solid fa-user-tie"></i> 37K
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Top Game Container -->
+
+      <section class="charts-container">
+        <div class="header-container">
+          <h2 class="title">Top des jeux</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="trend-list-container">
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-37cc49a6bdb03b5a4394db84ff264fe5/768/432/Image/Webp/noFilter" alt="trend-game-1" />
+            <h3>Blox Fruits</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91%
+              <i class="fa-solid fa-user-tie"></i> 405K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7499187ef690ab769c1d2b4a8a7e36ff/768/432/Image/Webp/noFilter" alt="trend-game-2" />
+            <h3>Faire pousser un jardin</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>93%
+              <i class="fa-solid fa-user-tie"></i> 137K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-868fec92f74ff0f2a9082a6422ef39a0/768/432/Image/Webp/noFilter" alt="trend-game-3" />
+            <h3>Tower defense simulator</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94%
+              <i class="fa-solid fa-user-tie"></i> 27.7K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-9a772a077cbd18a9337cacda01472604/768/432/Image/Webp/noFilter" alt="trend-game-4" />
+            <h3>Squid Game</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86%
+              <i class="fa-solid fa-user-tie"></i> 4.3K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-8f1234005f4bcc5bf85549fb2f301347/768/432/Image/Webp/noFilter" alt="trend-game-5" />
+            <h3>Brookhaven RP</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81%
+              <i class="fa-solid fa-user-tie"></i> 577K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/768/432/Image/Webp/noFilter" alt="trend-game-6" />
+            <h3>L'Attaque des Titans</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>80% 
+              <i class="fa-solid fa-user-tie"></i> 55K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter" alt="trend-game-7" />
+            <h3>Murder Mystery 2</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>97%
+              <i class="fa-solid fa-user-tie"></i> 117K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-a9306698a282e638a1688f1ca428a834/768/432/Image/Webp/noFilter" alt="trend-game-8" />
+            <h3>SCP-3008</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>90% 
+              <i class="fa-solid fa-user-tie"></i> 17K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7271d0277dc4641a87ee00f094eacb69/768/432/Image/Webp/noFilter" alt="trend-game-9" />
+            <h3>Obtenez tous les animaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>76% 
+              <i class="fa-solid fa-user-tie"></i> 37K
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Fun Game Container -->
+
+
+      <section class="charts-container">
+        <div class="header-container">
+          <h2 class="title">Amuse toi avec tes amis</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="trend-list-container">
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-37cc49a6bdb03b5a4394db84ff264fe5/768/432/Image/Webp/noFilter" alt="trend-game-1" />
+            <h3>Blox Fruits</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91%
+              <i class="fa-solid fa-user-tie"></i> 405K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7499187ef690ab769c1d2b4a8a7e36ff/768/432/Image/Webp/noFilter" alt="trend-game-2" />
+            <h3>Faire pousser un jardin</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>93%
+              <i class="fa-solid fa-user-tie"></i> 137K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-868fec92f74ff0f2a9082a6422ef39a0/768/432/Image/Webp/noFilter" alt="trend-game-3" />
+            <h3>Tower defense simulator</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94%
+              <i class="fa-solid fa-user-tie"></i> 27.7K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-9a772a077cbd18a9337cacda01472604/768/432/Image/Webp/noFilter" alt="trend-game-4" />
+            <h3>Squid Game</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86%
+              <i class="fa-solid fa-user-tie"></i> 4.3K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-8f1234005f4bcc5bf85549fb2f301347/768/432/Image/Webp/noFilter" alt="trend-game-5" />
+            <h3>Brookhaven RP</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81%
+              <i class="fa-solid fa-user-tie"></i> 577K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/768/432/Image/Webp/noFilter" alt="trend-game-6" />
+            <h3>L'Attaque des Titans</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>80% 
+              <i class="fa-solid fa-user-tie"></i> 55K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter" alt="trend-game-7" />
+            <h3>Murder Mystery 2</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>97%
+              <i class="fa-solid fa-user-tie"></i> 117K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-a9306698a282e638a1688f1ca428a834/768/432/Image/Webp/noFilter" alt="trend-game-8" />
+            <h3>SCP-3008</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>90% 
+              <i class="fa-solid fa-user-tie"></i> 17K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7271d0277dc4641a87ee00f094eacb69/768/432/Image/Webp/noFilter" alt="trend-game-9" />
+            <h3>Obtenez tous les animaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>76% 
+              <i class="fa-solid fa-user-tie"></i> 37K
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Best Mark Container -->
+
+      <section class="charts-container">
+        <div class="header-container">
+          <h2 class="title">Meilleures notes</h2>
+          <a class="see-btn" href="#"
+            >Tout voir <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div class="trend-list-container">
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-37cc49a6bdb03b5a4394db84ff264fe5/768/432/Image/Webp/noFilter" alt="trend-game-1" />
+            <h3>Blox Fruits</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>91%
+              <i class="fa-solid fa-user-tie"></i> 405K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7499187ef690ab769c1d2b4a8a7e36ff/768/432/Image/Webp/noFilter" alt="trend-game-2" />
+            <h3>Faire pousser un jardin</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>93%
+              <i class="fa-solid fa-user-tie"></i> 137K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-868fec92f74ff0f2a9082a6422ef39a0/768/432/Image/Webp/noFilter" alt="trend-game-3" />
+            <h3>Tower defense simulator</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>94%
+              <i class="fa-solid fa-user-tie"></i> 27.7K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-9a772a077cbd18a9337cacda01472604/768/432/Image/Webp/noFilter" alt="trend-game-4" />
+            <h3>Squid Game</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>86%
+              <i class="fa-solid fa-user-tie"></i> 4.3K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-8f1234005f4bcc5bf85549fb2f301347/768/432/Image/Webp/noFilter" alt="trend-game-5" />
+            <h3>Brookhaven RP</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>81%
+              <i class="fa-solid fa-user-tie"></i> 577K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/768/432/Image/Webp/noFilter" alt="trend-game-6" />
+            <h3>L'Attaque des Titans</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>80% 
+              <i class="fa-solid fa-user-tie"></i> 55K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-c929c9ba9069190914f60bbfe47b6cb9/768/432/Image/Webp/noFilter" alt="trend-game-7" />
+            <h3>Murder Mystery 2</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>97%
+              <i class="fa-solid fa-user-tie"></i> 117K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-a9306698a282e638a1688f1ca428a834/768/432/Image/Webp/noFilter" alt="trend-game-8" />
+            <h3>SCP-3008</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>90% 
+              <i class="fa-solid fa-user-tie"></i> 17K
+            </p>
+          </div>
+
+          <div class="game-container">
+            <img src="https://tr.rbxcdn.com/180DAY-7271d0277dc4641a87ee00f094eacb69/768/432/Image/Webp/noFilter" alt="trend-game-9" />
+            <h3>Obtenez tous les animaux</h3>
+            <p class="small-text">
+              <i class="fa-solid fa-thumbs-up"></i>76% 
+              <i class="fa-solid fa-user-tie"></i> 37K
+            </p>
+          </div>
+        </div>
+      </section>
+      </main>
+
+      <!-- Footer -->
+
+      <footer>
+        <ul class="footer-link">
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Emplois</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Parents</a></li>
+          <li><a href="#">Cartes-Cadeaux</a></li>
+          <li><a href="#">Aide</a></li>
+          <li><a href="#">Conditions</a></li>
+          <li><a href="#">Accessibilité</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">Tes choix en matière de vie privée</a>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAOCAYAAADT0Rc6AAAACXBIWXMAAACWAAAAlgEGQc5mAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAkZJREFUOI2VlE1IVFEYhp9zZqwZTaeNCdEiIgzLVmFUY4swadFyaFFQoNYwLlpJjhmaAxXWCBL9OWaQkUILWwSBZJTBMNOP5UL6oSLIoHIhQ/iT48zc0+Kqd+7cMcd39b3vd77v/e655xxBJryqDWgA1llyq8c00EG3CKSLYinyKTcaYZeT5BUPsroMmb9mKZvQFDFNIwZo6Q02NVGWk73CzW0RMUwXDHuOE6+rZG2un5HUIK8+19WAYB8hEbUDoBG+c4JUrTt3Q4D7L1ezGlBEACGlT7W4nKRq3dhWqik4DY/HDH5jOK1fCLz7Db57s6458jKaeFWzXUBT0LOyYWkLlBTB4Z2GNvLdiHddhLfn9C0fHYdXZ6GmF+YSllaN9pRG/qEdZvXzBJSWGNzTBT9iMHvN0CZnzDXvxqHiErxp1rmvD+5Gss7vkgDCOMNMzcG2VuiN6rzzKTwchYmged2tYWu36bgRz8St+UXYbZK/Qx9w1rp1odABUT/svQyffkP7IIydhyKnufDmCzPfWgwfA9A4AOGvEPGDpqD/tcVzSiroODNAKl3ds0Uvah+EezVQvtE67a8/Zv7lArQ+guATiH6DyiD01cH6jGERdAhQAi9a/0m0oxXI5TfFwPufUB4wa4UO/dekI88GiZRZo1sICUKhUXWsB/lgBOtZy4Lrz61apiFkMZQcgPRn8JQ6iGBoQxHJziPYq7eDM/OOLaC4IetV+D8kVXSJZ2ZTgDYlCybpnJ2nXimWsVwV5oGrhPAjhFoU/wFkb7M55NWangAAAABJRU5ErkJggg==" alt="accepter-refuser"></li>
+          <li><a href="#">Options des cookies</a></li>
+        </ul>
+  
+        <div class="footer-select-language">
+          <i class="fa-solid fa-earth-asia"></i>
+          <select name="language" id="language">
+            <option value="français">Français</option>
+            <option value="anglais">English</option>
+            <option value="italien">Italiano</option>
+            <option value="allemand">Deutsch</option>
+            <option value="espagnol">Espanôl</option>
+            <option value="portuguais">Português (Brasil)</option>
+            <option value="polonais">Polski</option>
+          </select>
+          <p>&copy;2025 Roblox Corporation. Roblox, le logo Roblox et Powering Imagination font partie de nos marques de commerce déposées ou non, aux États-Unis et dans d'autres pays.</p>
+        </div>
+  
+      </footer>
+</body>
+<script src="/JavaScript/sidebar.js"></script>
+</html>
