@@ -125,27 +125,42 @@
     max-height: 115px;
   }
 
-
   /* Charts */
 
-  main .charts-header-container h1{
+  main .charts-header-container h1 {
     padding: 8rem 0 1rem;
   }
 
-  main .trend-list-container{
+  main .trend-list-container,
+  main .popular-list-container,
+  main .top-list-container,
+  main .fun-list-container,
+  main .mark-list-container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
   }
 
-  main .trend-list-container > .game-container {
+  main .trend-list-container > .game-container,
+  main .popular-list-container > .game-container,
+  main .top-list-container > .game-container,
+  main .fun-list-container > .game-container,
+  main .mark-list-container > .game-container {
     height: 200px;
     margin-bottom: 2rem;
   }
 
-  main .trend-list-container > .game-container img{
-    width: 110px;
+  main .trend-list-container > .game-container img,
+  main .popular-list-container > .game-container img,
+  main .top-list-container > .game-container img,
+  main .fun-list-container > .game-container img,
+  main .mark-list-container > .game-container img {
+    min-width: 110px;
     height: 90px;
+  }
+
+  main .header-container h2 {
+    transform: translateX(20px);
   }
 }
 
@@ -174,7 +189,8 @@
     display: none;
   }
 
-  main #pop-up, main #pop-up-deconnection {
+  main #pop-up,
+  main #pop-up-deconnection {
     display: none;
   }
 
@@ -191,11 +207,11 @@
     display: none;
   }
 
-  main .continue-container > .friends-header-container{
+  main .continue-container > .friends-header-container {
     margin: 0.3rem 0 1rem;
   }
 
-  main .continue-container > .friends-header-container h2{
+  main .continue-container > .friends-header-container h2 {
     padding: 0;
   }
 
@@ -206,45 +222,49 @@
     grid-template-rows: auto;
   }
 
-  main .continue-list-container > .game-container{
+  main .continue-list-container > .game-container {
     padding: 0;
   }
 
   main .continue-list-container > .game-container:nth-child(7),
-  .continue-list-container > .game-container:nth-child(8){
+  .continue-list-container > .game-container:nth-child(8) {
     display: none;
   }
 
-  main .recommend-list-container{
+  main .recommend-list-container {
     gap: 1.5rem;
   }
 
-  main .recommend-list-container > .game-container{
+  main .recommend-list-container > .game-container {
     padding: 0;
   }
 
   main .recommend-list-container > .game-container:nth-child(12),
-  .recommend-list-container > .game-container:nth-child(16){
+  .recommend-list-container > .game-container:nth-child(16) {
     display: none;
   }
 
-  main .favorite-container{
+  main .favorite-container {
     margin: 4rem 0;
   }
 
-  main .favorite-list-container{
+  main .favorite-list-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
   }
 
-  main .favorite-list-container > .game-container img{
+  main .favorite-list-container > .game-container img {
     max-width: 150px;
     max-height: 150px;
   }
 
   /* Charts */
 
-  main .trend-list-container{
+  main .trend-list-container,
+  main .popular-list-container > .game-container,
+  main .top-list-container > .game-container,
+  main .fun-list-container > .game-container,
+  main .mark-list-container > .game-container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
