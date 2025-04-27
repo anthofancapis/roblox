@@ -257,7 +257,7 @@ main .continue-list-container {
 }
 
 main .continue-list-container > .game-container {
-  min-height: 20rem;
+  min-height: 200px;
 }
 
 main .continue-list-container > .game-container img {
@@ -296,7 +296,7 @@ main .favorite-list-container > .game-container {
 
 main .favorite-list-container > .game-container img {
   max-height: 160px;
-  max-width: 160px;
+  width: 100%;
 }
 
 main .favorite-list-container i:nth-child(2) {
@@ -441,7 +441,6 @@ main .trend-list-container > .game-container:nth-child(8) h3 {
   margin-bottom: 2rem;
 }
 
-
 main .popular-list-container > .game-container:first-child h3,
 main .popular-list-container > .game-container:nth-child(2) h3,
 main .popular-list-container > .game-container:nth-child(5) h3,
@@ -463,6 +462,12 @@ main .fun-list-container > .game-container:nth-child(3) h3,
 main .fun-list-container > .game-container:nth-child(5) h3,
 main .fun-list-container > .game-container:nth-child(7) h3,
 main .fun-list-container > .game-container:nth-child(8) h3,
-main .fun-list-container > .game-container:nth-child(9) h3{
+main .fun-list-container > .game-container:nth-child(9) h3 {
+  margin-bottom: 2rem;
+}
+
+main .mark-list-container > .game-container:nth-child(2) h3,
+main .mark-list-container > .game-container:nth-child(4) h3,
+main .mark-list-container > .game-container:nth-child(5) h3{
   margin-bottom: 2rem;
 }
