@@ -271,10 +271,6 @@
     scrollbar-width: none;
   }
 
-  main .game-container > .small-text{
-    padding: 0;
-  }
-
   main .trend-list-container > .game-container,
   main .popular-list-container > .game-container,
   main .top-list-container > .game-container,

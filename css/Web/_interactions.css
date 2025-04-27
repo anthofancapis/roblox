@@ -73,12 +73,18 @@ footer .footer-link li a:hover{
   color: var(--text);
 }
 
-footer .footer-select-language select:hover{
+footer .footer-select-language select:hover, main .items-header select:hover{
   color: var(--text);
-  border-top: 1px solid white;
+  border: 1px solid white;
 }
 
 footer .footer-select-language select option:hover{
   background-color: var(--hint);
+  color: var(--text);
+}
+
+/* Marketplace */
+
+main .items-header .market-container i:hover{
   color: var(--text);
 }
