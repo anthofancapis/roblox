@@ -10,6 +10,13 @@ body {
   color: var(--text);
 }
 
+h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0.1rem;
+  padding: 5rem 0 1.5rem;
+  font-weight: 800;
+}
+
 ul {
   list-style: none;
 }
@@ -41,4 +48,3 @@ button {
   color: rgb(184, 184, 184);
   font-size: 1.5rem;
 }
-

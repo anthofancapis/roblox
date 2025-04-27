@@ -7,7 +7,7 @@
     margin: 0.3rem 0 0.6rem 0;
   }
 
-  main .friends-container h1 {
+  main h1 {
     padding: 8rem 0 1rem;
   }
 
@@ -169,7 +169,7 @@
     padding: 2rem 2.4rem 0 2.4rem;
   }
 
-  main .friends-container h1 {
+  main h1 {
     padding: 5rem 0 1rem;
   }
 
@@ -218,7 +218,7 @@
   main .continue-list-container {
     display: grid;
     column-gap: 1.5rem;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: auto;
   }
 
@@ -261,13 +261,35 @@
   /* Charts */
 
   main .trend-list-container,
-  main .popular-list-container > .game-container,
-  main .top-list-container > .game-container,
-  main .fun-list-container > .game-container,
-  main .mark-list-container > .game-container {
+  main .popular-list-container,
+  main .top-list-container,
+  main .fun-list-container ,
+  main .mark-list-container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
     scrollbar-width: none;
+  }
+
+  main .game-container > .small-text{
+    padding: 0;
+  }
+
+  main .trend-list-container > .game-container,
+  main .popular-list-container > .game-container,
+  main .top-list-container > .game-container,
+  main .fun-list-container > .game-container,
+  main .mark-list-container > .game-container {
+    height: 240px;
+    margin-bottom: 2rem;
+  }
+
+  main .trend-list-container > .game-container img,
+  main .popular-list-container > .game-container img,
+  main .top-list-container > .game-container img,
+  main .fun-list-container > .game-container img,
+  main .mark-list-container > .game-container img {
+    min-width: 150px;
+    height: 150px;
   }
 }
