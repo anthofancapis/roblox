@@ -138,6 +138,7 @@
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
+    scrollbar-width: none;
   }
 
   main .trend-list-container > .game-container,
@@ -267,5 +268,6 @@
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     overflow: auto;
+    scrollbar-width: none;
   }
 }
