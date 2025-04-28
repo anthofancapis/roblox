@@ -29,6 +29,10 @@ header .header-logo {
   align-items: center;
 }
 
+header .header-logo button{
+  background-color: var(--background);
+}
+
 header .header-logo .logo-roblox {
   height: 3rem;
   min-width: 3rem;
@@ -304,15 +308,8 @@ footer .footer-select-language {
 }
 
 footer .footer-select-language select {
-  cursor: pointer;
   min-width: 270px;
-  height: 35px;
-  background: transparent;
-  color: var(--light-grey);
-  font-size: 1.6rem;
   padding: 0.5rem 1.2rem 0.5rem 3rem;
-  border: 1px solid var(--light);
-  border-radius: 0.3rem;
 }
 
 footer .footer-select-language select option {
@@ -344,9 +341,6 @@ main .select-device-container p {
 }
 
 main .select-device-container select {
-  height: 35px;
-  font-size: 1.6rem;
-  font-family: var(--font-family);
   color: var(--light-grey);
   background-color: var(--dark-grey);
   border-radius: 2rem;
@@ -354,7 +348,6 @@ main .select-device-container select {
   font-weight: 600;
   border: 0;
   margin-bottom: 1.5rem;
-  cursor: pointer;
 }
 
 main .charts-container {
@@ -456,19 +449,13 @@ main .mark-list-container > .game-container:nth-child(5) h3{
 }
 
 .items-header select{
-  cursor: pointer;
   width: 200px;
-  height: 35px;
-  background: transparent;
-  color: var(--light-grey);
-  font-size: 1.6rem;
   padding: 0.5rem 3rem 0.5rem 0.5rem;
-  border: 1px solid var(--light);
   border-radius: 0.8rem;
   margin-right: 1.2rem;
 }
 
-.items-header .btn-robux{
+.items-header button{
   cursor: pointer;
   background-color: var(--primary);
   border-radius: 0.8rem;
@@ -507,3 +494,48 @@ main .search-container input{
   background-color: #D0D9FB14;
   width: 320px;
 }
+
+main .marketplace-header-button{
+  padding: 1rem 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2.5rem;
+}
+
+main .marketplace-header-button button{
+  color: var(--light);
+  border-radius: 2rem;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 1.6rem;
+  padding: 0.5rem 3rem 0.5rem 2rem;
+  position: relative;
+}
+
+main .marketplace-header-button button::after{
+  content: "";
+  position: absolute;
+  right: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--light); /* couleur de ta flèche */
+}
+
+main .marketplace-bottom-button{
+  padding: 1rem 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+main .marketplace-bottom-button button{
+  padding: 1rem 0;
+  width: 7%;
+  border-radius: 2rem;
+  background-color: var(--dark-grey);
+  color: #D5D7DD;
+  font-size: 1.4rem;
+}
+

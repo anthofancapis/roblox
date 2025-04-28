@@ -41,7 +41,19 @@ img {
 
 button {
   border: 0;
-  background-color: var(--background);
+  cursor: pointer;
+}
+
+select{
+  cursor: pointer;
+  font-family: var(--font-family);
+  min-width: 100px;
+  height: 35px;
+  background: transparent;
+  color: var(--light-grey);
+  font-size: 1.6rem;
+  border: 1px solid var(--light);
+  border-radius: 0.3rem;
 }
 
 ::placeholder {

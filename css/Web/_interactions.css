@@ -88,3 +88,8 @@ footer .footer-select-language select option:hover{
 main .items-header .market-container i:hover{
   color: var(--text);
 }
+
+main .marketplace-header-button button:hover{
+  background-color: var(--dark-grey);
+  color: var(--text);
+}
