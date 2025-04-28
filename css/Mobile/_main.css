@@ -202,6 +202,10 @@
     padding: 0.5rem 1.2rem;
     min-width: 85px;
   }
+
+  main .grid-marketplace-items{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -355,5 +359,9 @@
   main .marketplace-bottom-button button{
     padding: 0.5rem 1.2rem;
     min-width: 85px;
+  }
+
+  main .grid-marketplace-items{
+    grid-template-columns: repeat(4, 1fr);
   }
 }

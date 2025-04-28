@@ -93,3 +93,7 @@ main .marketplace-header-button button:hover{
   background-color: var(--dark-grey);
   color: var(--text);
 }
+
+main .items-container > img:hover{
+  background-color: var(--hint);
+}
