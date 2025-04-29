@@ -94,6 +94,10 @@ main .marketplace-header-button button:hover{
   color: var(--text);
 }
 
-main .items-container > img:hover{
+main .header-items:hover{
   background-color: var(--hint);
+}
+
+main .header-items:hover button{
+  visibility: visible;
 }

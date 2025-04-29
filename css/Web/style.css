@@ -553,19 +553,35 @@ main .items-container{
   cursor: pointer;
 }
 
-main .items-container > img{
+/* main .items-container > img{
   background-color: var(--dark-grey);
   border-radius: 1rem;
   height: 230px;
   width: 230px;
   transition: all 0.5s ease-in-out;
+} */
+
+ main .header-items{
+  background-color: var(--dark-grey);
+  border-radius: 1rem;
+  height: 230px;
+  width: 230px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
 }
 
-/* main .items-container > img button{
+main .header-items button{
+  visibility: hidden;
+  z-index: 10;
+  position: absolute;
+  width: 92%;
+  padding: 0.7rem 0;
+  border-radius: 0.7rem;
   background-color: white;
-  color: var(--dark);
-
-} */
+  bottom: 5%;
+  left: 4%;
+  right: 4%;
+}
 
 main .items-container h3{
   font-size: 1.4rem;
