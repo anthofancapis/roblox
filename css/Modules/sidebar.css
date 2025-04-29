@@ -64,3 +64,16 @@
   font-size: 1.8rem;
   margin: 0.4rem;
 }
+
+#sidebar .btn-premium{
+  margin: 1rem 0 0 0;
+}
+
+#sidebar .btn-premium a{
+  font-size: 1.6rem;
+  margin: 0 0;
+  border-radius: 0.7rem;
+  color: var(--dark);
+  background-color: white;
+  padding: 0.7rem 1.5rem;
+}
