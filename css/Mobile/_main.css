@@ -182,7 +182,7 @@
 
   main .items-header .search-container{
     margin-top: 1.5rem;
-    max-width: 55%;
+    max-width: 52%;
   }
 
   main .items-header select, .items-header .market-container{
@@ -205,6 +205,10 @@
 
   main .grid-marketplace-items{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  main .items-container{
+    width: 190px;
   }
 
   main .items-container > .header-items{
