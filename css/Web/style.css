@@ -651,7 +651,7 @@ main .robux-items img{
 
 .robux-price-header{
   display: grid;
-  grid-template-columns: 205px 250px 280px;
+  grid-template-columns: 205px 260px 280px;
   justify-content: space-between;
   padding: 2rem 0 1.6rem;
 }
@@ -659,3 +659,50 @@ main .robux-items img{
 .robux-price-header span{
   padding-left: 0.3rem;
 }
+
+.robux-price-main{
+  border-top: 1px solid var(--hint);
+  display: grid;
+  grid-template-columns: 205px 260px 180px 90px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0;
+}
+
+.del-robux h4{
+  display: flex;
+  align-items: center;
+}
+
+.robux-price-main h4, .robux-price-main span{
+  font-size: 2rem;
+}
+
+.robux-price-main p{
+  font-size: 1.2rem;
+  background-color: rgb(242, 242, 94);
+  border-radius: 2rem;
+  color: var(--dark);
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.robux-price-main button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.8rem;
+  border-radius: 0.7rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: var(--text);
+  height: 48px;
+}
+
+.robux-price-main img{
+  max-width: 36px;
+  max-height: 36px;
+  padding-right: 0.5rem;
+}
+
