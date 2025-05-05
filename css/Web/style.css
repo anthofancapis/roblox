@@ -706,3 +706,59 @@ main .robux-items img{
   padding-right: 0.5rem;
 }
 
+.subscribe-container{
+  display: flex;
+  margin: 4rem 0 0;
+  padding: 2rem;
+  border: 1px solid var(--hint);
+  border-radius: 0.7rem;
+  width: 850px;
+}
+
+.premium-container{
+  width: 425px;
+  border-right: 1px solid var(--hint);
+  padding : 0 1rem 0 0;
+}
+
+.premium-container img{
+  margin-bottom: 2rem;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.premium-container h3{
+  font-size: 2.4rem;
+}
+
+.premium-container p{
+  color: var(--light-grey);
+  margin-bottom: 1rem;
+}
+
+.subscribe-container p span{
+  color: var(--text);
+  font-weight: 700;
+}
+
+.premium-container button{
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--dark);
+  border-radius: 0.7rem;
+  font-weight: 700;
+}
+
+.subscribe-month-container{
+  margin: 0 0 0 2rem;
+  color: var(--light-grey);
+}
+
+.subscribe-month-container span{
+  font-size: 2.4rem;
+}
+
+.subscribe-container ul li{
+  margin-top: 1.5rem;
+}
+

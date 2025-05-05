@@ -64,3 +64,12 @@
   outline: 0;
   background-color: var(--dark2);
 }
+
+.p-end {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 850px;
+  font-size: 1rem;
+  color: var(--light-grey);
+}
