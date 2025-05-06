@@ -89,7 +89,7 @@ main .items-header .market-container i:hover{
   color: var(--text);
 }
 
-main .marketplace-header-button button:hover{
+main .marketplace-header-button .btn-select:hover{
   background-color: var(--dark-grey);
   color: var(--text);
 }

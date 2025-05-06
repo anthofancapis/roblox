@@ -266,6 +266,31 @@
   .del-robux h4{
     display: none;
   }
+
+  /* Robux Content */
+
+  .subscribe-container{
+    flex-direction: column;
+    max-width: 380px;
+  }
+
+  .premium-container{
+    border-right: 0;
+    border-bottom: 1px solid var(--hint);
+    width: 340px;
+    padding: 0 0 2rem 0;
+  }
+
+  .subscribe-month-container{
+    margin-left: 0;
+  }
+
+  .p-end {
+    margin-top: 1.5rem;
+    width: 380px;
+    font-size: 0.9rem;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

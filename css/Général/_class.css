@@ -65,6 +65,27 @@
   background-color: var(--dark2);
 }
 
+main .btn-select{
+  color: var(--light);
+  border-radius: 2rem;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 1.6rem;
+  padding: 0.5rem 3rem 0.5rem 2rem;
+  position: relative;
+}
+
+main .btn-select::after{
+  content: "";
+  position: absolute;
+  right: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--light);
+}
+
 .p-end {
   margin-top: 1.5rem;
   display: flex;
