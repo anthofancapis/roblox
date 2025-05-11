@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -27,10 +27,107 @@
     <link rel="stylesheet" href="/css/Mobile/_footer.css" />
     <link rel="stylesheet" href="/css/Modules/pop_up.css" />
     <link rel="stylesheet" href="/css/Modules/sidebar.css" />
-    <link rel="stylesheet" href="/css/Login/login.css">
+    <link rel="stylesheet" href="/css/Login/login.css" />
     <title>Roblox</title>
-</head>
-<body>
-    <a href="/index-accueil.html">Connexion</a>
-</body>
+  </head>
+  <body>
+    <section class="create-account-container">
+      <div class="header-create-account">
+        <img
+          src="/image/roblox_logo_fond_totalement_transparent.png"
+          alt="roblox-logo"
+        />
+        <a href="/index-robux.html">Connexion</a>
+      </div>
+
+      <div class="register-account-container">
+        <form action="#">
+          <h2>Inscris-toi et amuse-toi !</h2>
+
+          <div class="data-select">
+            <label for="#">Date d'anniversaire</label>
+            <select name="days" id="days">
+              <option value="days">Jour</option>
+            </select>
+            <select name="month" id="month">
+              <option value="month">Mois</option>
+            </select>
+            <select name="years" id="years">
+              <option value="years">Année</option>
+            </select>
+          </div>
+
+          <label for="#">Nom d'utilisateur</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Veuillez ne pas utiliser votre vrai nom"
+          />
+          <label for="#">Mot de passe</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Au moins 8 caractères"
+          />
+
+          <label for="#">Genre (Facultatif)</label>
+          <div class="gender-button">
+            <button><i class="fa-solid fa-person-dress"></i></button>
+            <button><i class="fa-solid fa-person"></i></button>
+          </div>
+          
+          <p>
+          En cliquant sur S'inscrire, tu acceptes les
+          <a
+            href="https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use"
+            >Conditions d'utilisation</a
+          >
+          y compris la clause d'arbitrage et tu reconnais
+          <a
+            href="https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy"
+          >la Politique de confidentialité</a>
+        </p>
+
+        <a class="btn-register" href="/index-accueil.html">S'inscrire</a>
+        </form> 
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <ul class="footer-link">
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Emplois</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Parents</a></li>
+          <li><a href="#">Cartes-Cadeaux</a></li>
+          <li><a href="#">Aide</a></li>
+          <li><a href="#">Conditions</a></li>
+          <li><a href="#">Accessibilité</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">Tes choix en matière de vie privée</a>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAOCAYAAADT0Rc6AAAACXBIWXMAAACWAAAAlgEGQc5mAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAkZJREFUOI2VlE1IVFEYhp9zZqwZTaeNCdEiIgzLVmFUY4swadFyaFFQoNYwLlpJjhmaAxXWCBL9OWaQkUILWwSBZJTBMNOP5UL6oSLIoHIhQ/iT48zc0+Kqd+7cMcd39b3vd77v/e655xxBJryqDWgA1llyq8c00EG3CKSLYinyKTcaYZeT5BUPsroMmb9mKZvQFDFNIwZo6Q02NVGWk73CzW0RMUwXDHuOE6+rZG2un5HUIK8+19WAYB8hEbUDoBG+c4JUrTt3Q4D7L1ezGlBEACGlT7W4nKRq3dhWqik4DY/HDH5jOK1fCLz7Db57s6458jKaeFWzXUBT0LOyYWkLlBTB4Z2GNvLdiHddhLfn9C0fHYdXZ6GmF+YSllaN9pRG/qEdZvXzBJSWGNzTBT9iMHvN0CZnzDXvxqHiErxp1rmvD+5Gss7vkgDCOMNMzcG2VuiN6rzzKTwchYmged2tYWu36bgRz8St+UXYbZK/Qx9w1rp1odABUT/svQyffkP7IIydhyKnufDmCzPfWgwfA9A4AOGvEPGDpqD/tcVzSiroODNAKl3ds0Uvah+EezVQvtE67a8/Zv7lArQ+guATiH6DyiD01cH6jGERdAhQAi9a/0m0oxXI5TfFwPufUB4wa4UO/dekI88GiZRZo1sICUKhUXWsB/lgBOtZy4Lrz61apiFkMZQcgPRn8JQ6iGBoQxHJziPYq7eDM/OOLaC4IetV+D8kVXSJZ2ZTgDYlCybpnJ2nXimWsVwV5oGrhPAjhFoU/wFkb7M55NWangAAAABJRU5ErkJggg==" alt="accepter-refuser"></li>
+          <li><a href="#">Options des cookies</a></li>
+        </ul>
+  
+        <div class="footer-select-language">
+          <i class="fa-solid fa-earth-asia"></i>
+          <select name="language" id="language">
+            <option value="français">Français</option>
+            <option value="anglais">English</option>
+            <option value="italien">Italiano</option>
+            <option value="allemand">Deutsch</option>
+            <option value="espagnol">Espanôl</option>
+            <option value="portuguais">Português (Brasil)</option>
+            <option value="polonais">Polski</option>
+          </select>
+          <p>&copy;2025 Roblox Corporation. Roblox, le logo Roblox et Powering Imagination font partie de nos marques de commerce déposées ou non, aux États-Unis et dans d'autres pays.</p>
+        </div>
+  
+      </footer>
+  </body>
 </html>
