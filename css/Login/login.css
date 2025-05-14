@@ -67,7 +67,7 @@
     text-decoration: underline;
 }
 
-.register-account-container form{
+.register-account-container .form{
     display: flex;
     flex-direction: column;
     background-color: var(--background);
@@ -75,20 +75,20 @@
     border-radius: 1rem;
 }
 
-.register-account-container form h2{
+.register-account-container .form h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
     margin: 0.5rem 0 1rem;
 }
 
-.register-account-container form select{
+.register-account-container .form select{
     width: 32.5%;
     background-color: var(--dark-grey);
     margin-bottom: 3rem;
 }
 
-.register-account-container form input{
+.register-account-container .form input{
     background-color: var(--dark-grey);
     color: white;
     padding: 1rem 1.5rem;
@@ -128,16 +128,16 @@
 }
 
 @media screen and (max-width:480px) {
-    .register-account-container form{
+    .register-account-container .form{
         max-width: 385px;
     }
 
-    .register-account-container form h2{
+    .register-account-container .form h2{
         margin-bottom: 2.5rem;
         font-size: 2.2rem;
     }
 
-    .register-account-container form input{
+    .register-account-container .form input{
         width: 340px;
     }
 
