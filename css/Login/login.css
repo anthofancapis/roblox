@@ -251,7 +251,7 @@ main .form-login-container .bottom-login-container a {
   margin-top: 2rem;
 }
 
-main .form-login-container .header-login-container button {
+main .form-login-container .header-login-container a:first-of-type {
   width: 380px;
   font-size: 1.6rem;
   font-weight: 500;
@@ -260,7 +260,7 @@ main .form-login-container .header-login-container button {
   border: 1px solid var(--text);
   padding: 0.8rem 1rem;
   color: var(--text);
-  margin: 0.6rem 0 2rem;
+  margin: 0.6rem 0 2rem 0.5rem;
 }
 
 main .form-login-container .header-login-container a,
@@ -292,7 +292,7 @@ main .bottom-login-container button {
   }
 
   main .bottom-login-container button,
-  main .header-login-container button,
+  main .header-login-container a:first-of-type,
   main .form-login-container input{
     max-width: 365px;
   }
