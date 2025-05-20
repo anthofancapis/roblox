@@ -100,4 +100,77 @@
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
   }
+
+#pop-up-device{
+  background-color: var(--dark-grey);
+  height: 440px;
+  width: 250px;
+  position: absolute;
+  top: 35px;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 1rem;
+  z-index: 90;
+  visibility: hidden;
+  padding: 2.5rem 0;
+}
+
+#pop-up-device .header-container-pop-up{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  margin-bottom: 1.3rem;
+}
+
+#pop-up-device .header-container-pop-up h3{
+  font-size: 2.2rem;
+  padding: 0.4rem 0;
+}
+
+#pop-up-device .header-container-pop-up i{
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+#pop-up-device .filter-option{
+  padding: 1.3rem 2.5rem;
+  cursor: pointer;
+}
+
+#pop-up-device .filter-option:nth-of-type(2){
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+#pop-up-device .filter-option p{
+  width: 160px;
+  position: relative;
+}
+
+#pop-up-device .filter-option p::after{
+  content: "";
+  position: absolute;
+  left: 110%;
+  top: 10%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--hint);
+  border: 1px solid rgb(100, 100, 100);
+}
+
+#pop-up-device .action-button{
+  padding: 1rem 2.5rem 0;
+  width: 250px;
+}
+
+#pop-up-device .action-button button{
+  background-color: var(--primary);
+  color: var(--text);
+  border-radius: 0.7rem;
+  padding: 0.8rem 2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 100%;
+}
   

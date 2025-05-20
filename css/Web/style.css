@@ -29,7 +29,7 @@ header .header-logo {
   align-items: center;
 }
 
-header .header-logo button{
+header .header-logo button {
   background-color: var(--background);
 }
 
@@ -337,8 +337,17 @@ footer .footer-select-language p {
 
 /* Charts Content */
 
+main .select-device-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 main .select-device-container p {
   padding: 0.3rem 0;
+}
+
+main .select-device-container .select-device-button{
+  position: relative;
 }
 
 main .select-device-container .btn-select {
@@ -346,7 +355,7 @@ main .select-device-container .btn-select {
   border-radius: 2rem;
   padding: 0.5rem 3rem 0.5rem 2rem;
   border: 0;
-  margin: 1rem 0;
+  margin: 0 1rem 1rem 0;
 }
 
 main .charts-container {
@@ -425,36 +434,36 @@ main .fun-list-container > .game-container:nth-child(9) h3 {
 
 main .mark-list-container > .game-container:nth-child(2) h3,
 main .mark-list-container > .game-container:nth-child(4) h3,
-main .mark-list-container > .game-container:nth-child(5) h3{
+main .mark-list-container > .game-container:nth-child(5) h3 {
   margin-bottom: 2rem;
 }
 
 /* Marketplace Content */
 
-.marketplace-header-container h1{
+.marketplace-header-container h1 {
   padding: 0;
 }
 
-.marketplace-header-container{
+.marketplace-header-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 5rem 0 1.5rem;
 }
 
-.items-header{
+.items-header {
   display: flex;
   flex-direction: row nowrap;
 }
 
-.items-header select{
+.items-header select {
   width: 200px;
   padding: 0.5rem 3rem 0.5rem 0.5rem;
   border-radius: 0.8rem;
   margin-right: 1.2rem;
 }
 
-.items-header button{
+.items-header button {
   cursor: pointer;
   background-color: var(--primary);
   border-radius: 0.8rem;
@@ -466,14 +475,14 @@ main .mark-list-container > .game-container:nth-child(5) h3{
   max-height: 35px;
 }
 
-main .items-header .market-container i{
+main .items-header .market-container i {
   position: relative;
   cursor: pointer;
   transform: translateY(15px);
   color: var(--light);
 }
 
-main .items-header .market-container i span{
+main .items-header .market-container i span {
   position: absolute;
   color: var(--text);
   background-color: var(--primary);
@@ -485,40 +494,39 @@ main .items-header .market-container i span{
   font-size: 1rem;
 }
 
-main .search-container{
+main .search-container {
   margin-right: 1.2rem;
 }
 
-main .search-container input{
-  background-color: #D0D9FB14;
+main .search-container input {
+  background-color: #d0d9fb14;
   width: 320px;
 }
 
-main .marketplace-header-button{
+main .marketplace-header-button {
   padding: 1rem 0;
   display: flex;
   flex-flow: row nowrap;
   gap: 2.5rem;
 }
 
-main .marketplace-bottom-button{
+main .marketplace-bottom-button {
   padding: 1rem 0;
   display: flex;
   flex-flow: row nowrap;
   gap: 1rem;
 }
 
-main .marketplace-bottom-button button{
+main .marketplace-bottom-button button {
   padding: 1rem 0;
   width: 7%;
   border-radius: 2rem;
   background-color: var(--dark-grey);
-  color: #D5D7DD;
+  color: #d5d7dd;
   font-size: 1.4rem;
 }
 
-
-main .grid-marketplace-items{
+main .grid-marketplace-items {
   padding: 1rem 0;
   display: grid;
   row-gap: 2.5rem;
@@ -527,11 +535,11 @@ main .grid-marketplace-items{
   grid-template-rows: auto;
 }
 
-main .items-container{
+main .items-container {
   cursor: pointer;
 }
 
- main .header-items{
+main .header-items {
   background-color: var(--dark-grey);
   border-radius: 1rem;
   height: 230px;
@@ -540,7 +548,7 @@ main .items-container{
   position: relative;
 }
 
-main .header-items button{
+main .header-items button {
   visibility: hidden;
   z-index: 10;
   position: absolute;
@@ -553,13 +561,13 @@ main .header-items button{
   right: 4%;
 }
 
-main .items-container h3{
+main .items-container h3 {
   font-size: 1.4rem;
   padding-top: 0.5rem;
   margin-bottom: 0.8rem;
 }
 
-main .items-container p{
+main .items-container p {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
@@ -567,21 +575,21 @@ main .items-container p{
   margin-bottom: 0.5rem;
 }
 
-main .items-container a{
+main .items-container a {
   padding: 0 0.3rem 0 0.7rem;
 }
 
-main .items-container p img{
+main .items-container p img {
   height: 12px;
   width: 12px;
 }
 
-main .robux-items{
+main .robux-items {
   display: flex;
   align-items: center;
 }
 
-main .robux-items img{
+main .robux-items img {
   width: 16px;
   height: 16px;
   margin-right: 0.5rem;
@@ -589,14 +597,14 @@ main .robux-items img{
 
 /* Robux Content */
 
-.robux-container{
+.robux-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5rem 0 0;
 }
 
-.robux-title-container{
+.robux-title-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -604,20 +612,19 @@ main .robux-items img{
   text-align: center;
 }
 
-
-.robux-title-container h1{
+.robux-title-container h1 {
   font-size: 6.4rem;
   padding: 2rem 15rem;
   letter-spacing: 0.2rem;
 }
 
-.robux-title-container h3{
+.robux-title-container h3 {
   font-size: 2.4rem;
   padding: 1rem 1rem 0;
   letter-spacing: 0.1rem;
 }
 
-.robux-price-container{
+.robux-price-container {
   display: flex;
   flex-direction: column;
   padding: 0 2rem;
@@ -627,18 +634,18 @@ main .robux-items img{
   width: 850px;
 }
 
-.robux-price-header{
+.robux-price-header {
   display: grid;
   grid-template-columns: 205px 260px 280px;
   justify-content: space-between;
   padding: 2rem 0 1.6rem;
 }
 
-.robux-price-header span{
+.robux-price-header span {
   padding-left: 0.3rem;
 }
 
-.robux-price-main{
+.robux-price-main {
   border-top: 1px solid var(--hint);
   display: grid;
   grid-template-columns: 205px 260px 180px 90px;
@@ -647,16 +654,17 @@ main .robux-items img{
   padding: 1.6rem 0;
 }
 
-.del-robux h4{
+.del-robux h4 {
   display: flex;
   align-items: center;
 }
 
-.robux-price-main h4, .robux-price-main span{
+.robux-price-main h4,
+.robux-price-main span {
   font-size: 2rem;
 }
 
-.robux-price-main p{
+.robux-price-main p {
   font-size: 1.2rem;
   background-color: rgb(242, 242, 94);
   border-radius: 2rem;
@@ -666,7 +674,7 @@ main .robux-items img{
   padding: 0.5rem 0;
 }
 
-.robux-price-main button{
+.robux-price-main button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -678,13 +686,13 @@ main .robux-items img{
   height: 48px;
 }
 
-.robux-price-main img{
+.robux-price-main img {
   max-width: 36px;
   max-height: 36px;
   padding-right: 0.5rem;
 }
 
-.subscribe-container{
+.subscribe-container {
   display: flex;
   margin: 4rem 0 0;
   padding: 2rem;
@@ -693,33 +701,33 @@ main .robux-items img{
   width: 850px;
 }
 
-.premium-container{
+.premium-container {
   width: 425px;
   border-right: 1px solid var(--hint);
-  padding : 0 1rem 0 0;
+  padding: 0 1rem 0 0;
 }
 
-.premium-container img{
+.premium-container img {
   margin-bottom: 2rem;
   max-width: 24px;
   max-height: 24px;
 }
 
-.premium-container h3{
+.premium-container h3 {
   font-size: 2.4rem;
 }
 
-.premium-container p{
+.premium-container p {
   color: var(--light-grey);
   margin-bottom: 1rem;
 }
 
-.subscribe-container p span{
+.subscribe-container p span {
   color: var(--text);
   font-weight: 700;
 }
 
-.premium-container button{
+.premium-container button {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--dark);
@@ -727,16 +735,15 @@ main .robux-items img{
   font-weight: 700;
 }
 
-.subscribe-month-container{
+.subscribe-month-container {
   margin: 0 0 0 2rem;
   color: var(--light-grey);
 }
 
-.subscribe-month-container span{
+.subscribe-month-container span {
   font-size: 2.4rem;
 }
 
-.subscribe-container ul li{
+.subscribe-container ul li {
   margin-top: 1.5rem;
 }
-
