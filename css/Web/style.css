@@ -19,7 +19,7 @@ header .header-link {
 
 header .header-link a {
   padding: 0.6rem 3.2rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   line-height: 1.7em;
 }
 
@@ -50,7 +50,7 @@ header nav {
   flex-flow: row nowrap;
   align-items: center;
   margin-right: 1rem;
-  margin-left: 23.5rem;
+  margin-left: 600px;
 }
 
 header nav img {
