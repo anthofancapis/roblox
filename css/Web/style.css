@@ -235,11 +235,12 @@ main .continue-list-container {
 
 main .continue-list-container > .game-container {
   min-height: 200px;
+  width: 240px;
 }
 
 main .continue-list-container > .game-container img {
-  min-height: 15rem;
-  min-width: 15rem;
+  height: 20rem;
+  max-width: 20rem;
 }
 
 main .continue-list-container i:nth-child(2) {
