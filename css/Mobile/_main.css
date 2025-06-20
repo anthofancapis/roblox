@@ -87,12 +87,13 @@
   }
 
   main .continue-list-container > .game-container {
-    min-height: 15rem;
+    max-height: 15rem;
+    max-width: 10rem;
   }
 
   main .continue-list-container > .game-container img {
-    min-height: 10rem;
-    min-width: 10rem;
+    max-height: 10rem;
+    max-width: 10rem;
   }
 
   main .continue-list-container > .game-container:nth-child(3) h3 {
